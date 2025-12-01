@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 // Goal:
 //Win the game 10 times in a row
 
-//Solution
+//Solution:
 //Create another smart contract that replicates the same algorithm logic , get the right guesses on the same block .
 //We have to run the script ten times ,each time on a different block.
 import {CoinFlip} from "../src/Coinflip.sol";
