@@ -3,9 +3,7 @@ pragma solidity ^0.6.0;
 
 //Goal:
 //Gain more than 20 tokens
-
-//Solution:
-//Version 0.6.0 is vulnerable to arithmetic overflows and underflows so we manipulate that to get 21 tokens.
+//Solution:Version 0.6.0 is vulnerable to arithmetic overflows and underflows so we manipulate that to get 21 tokens.
 
 import {Token} from "../src/Token.sol";
 import {Script} from "forge-std/Script.sol";
